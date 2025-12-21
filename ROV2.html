@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
+
+<html lang="zxx">
+
+<head>
+	<meta charset="utf-8">
+	<title>David OBM</title>
+	<link rel="icon" href="images/fishlogo.png">
+	
+	<!-- mobile responsive meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- ** Plugins Needed for the Project ** -->
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
+	<link rel="stylesheet" href="plugins/counto/animate.css">
+	<link rel="stylesheet" href="plugins/aos/aos.css">
+	<link rel="stylesheet" href="plugins/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="plugins/owl-carousel/owl.theme.default.min.css">
+	<link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
+	<link rel="stylesheet" href="plugins/animated-text/animated-text.css">
+	<script src="https://kit.fontawesome.com/89860d6884.js" crossorigin="anonymous"></script>
+	
+	<!-- Main Stylesheet -->
+	<link href="css/style.css" rel="stylesheet">
+	
+	</head>
+
+<body>
+  
+<!-- Navigation Start -->
+<!-- Header Start --> 
+
+<nav class="navbar navbar-expand-lg  main-nav " id="navbar">
+	<div class="container">
+	  <a class="navbar-brand" href="index.html">
+	  	<img src="images/logolongsmall.png" alt="" class="img-fluid">
+	  </a>
+
+	  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="ti-align-justify"></span>
+	  </button>
+  
+		  <div class="collapse navbar-collapse" id="navbarsExample09">
+			<ul class="navbar-nav ml-auto">
+			  <li class="nav-item  active"><a class="nav-link" href="index.html">Home</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!-- Header Close --> 
+
+
+<section class="page-title section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="text-center">
+          <h1 class="text-capitalize mb-0 text-lg">Suki ROV</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section portfolio-single">
+	<div class="container">
+		<div class = "bottompad">
+			<div class = "row align-items-center">
+				<div class = "col-lg-6">
+					<div class = "pagecontainer">
+						<img src="images/portfolio/ROV2.gif" alt="Testing the ROV" class="img-fluid w-100">
+						<div class = "pageoverlay">
+							<div class = "text">Partially constructed Suki ROV</div>
+						</div>
+					</div>
+				</div>
+				<div class = "col-lg-6">
+					<p class = "pagepara">
+                        This is the second ROV I’ve been working on (nicknamed Suki). Suki’s brains are a Raspberry Pi and an Arduino. 
+                        The Raspberry Pi hosts a webpage (built using flask) which is accessible via your browser when you plug in the ethernet cable that allows for the 
+                        communication between the user and the ROV.   The webpage shows a live stream from the webcam mounted on Suki, it also allows you to steer the ROV 
+                        either by using your keyboard or by connecting an Xbox controller.
+                        <br>
+                        <br>
+                        The Raspberry Pi passes the commands from the user to the arduino via classic serial communication. The arduino then executes the commands.
+                    </p>
+				</div>
+			</div>
+		</div>
+		<div class = "row align-items-center">
+			<div class = "col-lg-6">
+				<p class = "pagepara">
+                    Brushless motors are used for thrusters, I’m interested to see how they fare in salt water! In theory they should work fine underwater but we will see.
+                     A servo motor allows the webcam to be panned up and down. 
+                    <br>
+                    <br>
+                    All of what I’ve just explained has been built, what’s left is to lasercut the side pieces and end caps for the tube and water proof it. I’d also like to 
+                    work on a simple PID  controller to keep the ROVs roll level during use, and maybe investigate using OpenCV to stabilise the live feed from the ROV by 
+                    compensating for changes in pitch by adjusting the webcam's pan angle.
+                </p>
+			</div>
+			<div class = "col-lg-6">
+				<div class = "pagecontainer">
+					<img src="images/portfolio/rov2cad.png" alt="CAD of the ROV" class="img-fluid w-100">
+					<div class = "pageoverlay">
+						<div class = "text">CAD (designed in Onshape) of the ROV</div>
+					</div>
+				</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="footer">
+	<div class="container">
+	</div>
+</section>
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<script src="plugins/aos/aos.js"></script>
+<script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+<script src="plugins/shuffle/shuffle.min.js"></script>
+<script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="plugins/animated-text/animated-text.js"></script>
+<script src="plugins/counto/apear.js"></script>
+<script src="plugins/counto/counTo.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</html>

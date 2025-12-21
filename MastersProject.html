@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
+
+<html lang="zxx">
+
+<head>
+	<meta charset="utf-8">
+	<title>David OBM</title>
+	<link rel="icon" href="images/fishlogo.png">
+	
+	<!-- mobile responsive meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- ** Plugins Needed for the Project ** -->
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
+	<link rel="stylesheet" href="plugins/counto/animate.css">
+	<link rel="stylesheet" href="plugins/aos/aos.css">
+	<link rel="stylesheet" href="plugins/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="plugins/owl-carousel/owl.theme.default.min.css">
+	<link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
+	<link rel="stylesheet" href="plugins/animated-text/animated-text.css">
+	<script src="https://kit.fontawesome.com/89860d6884.js" crossorigin="anonymous"></script>
+	
+	<!-- Main Stylesheet -->
+	<link href="css/style.css" rel="stylesheet">
+	  
+</head>
+
+<body>
+  
+<!-- Navigation Start -->
+<!-- Header Start --> 
+
+<nav class="navbar navbar-expand-lg  main-nav " id="navbar">
+	<div class="container">
+	  <a class="navbar-brand" href="index.html">
+	  	<img src="images/logolongsmall.png" alt="" class="img-fluid">
+	  </a>
+
+	  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="ti-align-justify"></span>
+	  </button>
+  
+		  <div class="collapse navbar-collapse" id="navbarsExample09">
+			<ul class="navbar-nav ml-auto">
+			  <li class="nav-item  active"><a class="nav-link" href="index.html">Home</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!-- Header Close --> 
+
+
+<section class="page-title section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="text-center">
+          <h1 class="text-capitalize mb-0 text-lg">Masters Project</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section portfolio-single">
+	<div class="container">
+		
+			<div class = "row align-items-center bottompad">
+				<div class = "col-lg-5">
+					<div class = "pagecontainer">
+						<img src="images/portfolio/lqrdrop.gif" alt="Experiment in action" class="img-fluid w-100">
+						<div class="pageoverlay">
+							<div class="text">An experiment in action. The prototype VAP is attempting to follow the path shown in white. </div>
+						</div>
+					</div>
+				</div>
+				<div class = "col-lg-7">
+					<p class = "pagepara">In summer ‘22 I worked in DTU Aqua (a department in the Technical University of Denmark focused on marine research) as a research assistant. 
+						I was tasked with compiling a report on all the different ways you can collect data from the oceans around Greenland (in a fixed location). 
+						It was a great task, I got to speak with researchers and industry specialists asking them about how they had completed similar projects. 
+						I got to write python scripts to analyse forces in moorings and expected drifts of different concepts using historical current data.
+						<br>
+						<br>
+						While in this role, I came up with a new way to take these measurements. My idea was we could use a type of ocean glider AUV to move up and
+						down the water column while staying in the same area, I called it the Virtually Anchored Profiler (VAP). DTU Aqua thought the idea was
+						interesting, so I organised a collaboration between DTU and the University of Cambridge and continued investigating this concept as my 
+						Masters project.
+						<br>
+						<br>
+						I decided to investigate how to control the VAP in an energy optimal way, while ensuring that the VAP moves where it needs to. To do this I 
+						first built a prototype VAP, which had a movable brass mass (so the centre of mass could be changed) and motorised syringes (so the buoyancy
+						could be changed). An ESP 32 controlled the device.
+						</p>
+				</div>
+			</div>
+		<div class = "bottompad">
+			<div class = "row align-items-center">
+				<div class = "col-lg-6">
+					<p class = "pagepara">I wrote a Python program which allowed me to choose a control strategy. It computed the path the VAP should follow based on that control strategy. 
+						It tracked the position of the VAP using a webcam connected to the laptop pointed at the tank of water (this was quite involved, I had to undistort 
+						the image and define a space using these fiducial marker tags, for anyone looking to do something similar I highly recommend using fiducial markers,
+						 I used April tags). 
+					</p>
+				</div>
+				<div class = "col-lg-6">
+					<div class = "pagecontainer">
+						<img src="images/portfolio/labelled_device.png" alt="labelled VAP design" class="img-fluid w-100">
+						<div class = "pageoverlay">
+							<div class = "text">Labelled prototype VAP</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class = "row align-items-center">
+			<div class = "col-lg-6">
+				<div class = "pagecontainer">
+					<img src="images/portfolio/tilt.jpg" alt="Prototype VAP" class="img-fluid w-100">
+					<div class = "pageoverlay">
+						<div class = "text">Close up of the prototype VAP. Note the angle on the fins. This allowed current to be simulated in a still water tank. When the VAP falls, 
+							a force acts on it due to the tilt of the fins exactly as a current would.</div>
+					</div>
+				</div>	
+			</div>
+			<div class = "col-lg-6">
+				<p>This program also calculated how the position of the centre of mass of the VAP and its buoyancy should be varied to follow the path. The error and 
+					amount of energy expended was calculated for each control strategy which allowed me to compare them.
+					<br>
+					<br>
+					My project was awarded a First Class Honours and was nominated by the Department of Engineering for the Institute of Mechanical Engineers best 
+					project prize.
+					</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="footer">
+	<div class="container">
+	</div>
+</section>
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<script src="plugins/aos/aos.js"></script>
+<script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+<script src="plugins/shuffle/shuffle.min.js"></script>
+<script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="plugins/animated-text/animated-text.js"></script>
+<script src="plugins/counto/apear.js"></script>
+<script src="plugins/counto/counTo.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</html>

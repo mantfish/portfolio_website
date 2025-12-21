@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
+
+<html lang="zxx">
+
+  <head>
+    <meta charset="utf-8">
+    <title>David OBM</title>
+    <link rel="icon" href="images/fishlogo.png">
+  
+    <!-- mobile responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- ** Plugins Needed for the Project ** -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
+    <link rel="stylesheet" href="plugins/counto/animate.css">
+    <link rel="stylesheet" href="plugins/aos/aos.css">
+    <link rel="stylesheet" href="plugins/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="plugins/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="plugins/animated-text/animated-text.css">
+    <script src="https://kit.fontawesome.com/89860d6884.js" crossorigin="anonymous"></script>
+  
+    <!-- Main Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+  
+  </head>
+
+<body>
+  
+<!-- Navigation Start -->
+<!-- Header Start --> 
+
+<nav class="navbar navbar-expand-lg  main-nav " id="navbar">
+	<div class="container">
+	  <a class="navbar-brand" href="index.html">
+	  	<img src="images/logolongsmall.png" alt="" class="img-fluid">
+	  </a>
+
+	  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="ti-align-justify"></span>
+	  </button>
+  
+		  <div class="collapse navbar-collapse" id="navbarsExample09">
+			<ul class="navbar-nav ml-auto">
+			  <li class="nav-item  active"><a class="nav-link" href="index.html">Home</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!-- Header Close --> 
+
+
+<section class="page-title section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="text-center">
+          <h1 class="text-capitalize mb-0 text-lg">Ticketing System for Girton College Spring Ball</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section portfolio-single">
+	<div class="container">
+        <div class = "bottompad">
+            <div class = "row align-items-center">
+                <div class = "col-lg-5">
+                    <div class = "pagecontainer">
+                        <img src="images/portfolio/GSBentrance.jpg" alt="Girton College Spring Ball entrance" class="img-fluid w-100">
+                        <div class = "pageoverlay">
+                            <div class = "text">The entrance to the ball! I was checking tickets in the archway.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col-lg-7">
+                    <p class = "pagepara">
+                        Each year Girton College throws a big party called the spring ball. This is an event organised by the students 
+                        and I wanted to help so I signed up with a friend of mine to do the IT (website, email etc..) and the ticketing.
+                        <br>
+                        <br>
+                        We looked at all the different ticketing solutions on the market: we looked at Fixr and other similar solutions,
+                         but they were all quite expensive, especially as we had over 1000 guests arriving, so even a small percentage 
+                         quickly became a lot of money.  To save cost and because we wanted the challenge, we decided to build our own 
+                         ticketing system.
+                        <br>
+                        <br>
+                        The first step was to generate a unique QR code for each attendee, and then generate a ticket with their name and 
+                        ticket type and finally send it to them.  I did this using Python and I was pretty nervous about pressing go on my
+                        script to send out so many emails, but it all worked out flawlessly.
+                    </p>
+                </div>
+            </div>
+        </div>
+		<div class = "row align-items-center">
+            <div class = "col-lg-5">
+                <p class = "pagepara">
+                    I then bought some Raspberry Pis, touchscreens and QR code scanners. The idea was that each Raspberry Pi would access a 
+                    central SQL database and strike off guests who had entered and allow the checker to make sure their ID matched their name. 
+                    The video shows the system in action. This was my first time coding something that had to work, if not we were going to 
+                    have over 1000 angry guests waiting for a long time, so I tested the system thoroughly and it worked the whole night, got 
+                    the guests in quickly and saved the guests some money!
+                </p>
+            </div>
+			<div class = "col-lg-7"> 
+                <video class = "img-fluid w-100" controls>
+                    <source src="images/portfolio/VID_20200227_092720.mp4" type="video/mp4"> 
+                </video>
+			</div>
+			
+		</div>
+	</div>
+</section>
+
+
+<section class="footer">
+	<div class="container">
+	</div>
+</section>
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<script src="plugins/aos/aos.js"></script>
+<script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+<script src="plugins/shuffle/shuffle.min.js"></script>
+<script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="plugins/animated-text/animated-text.js"></script>
+<script src="plugins/counto/apear.js"></script>
+<script src="plugins/counto/counTo.js"></script>
+
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</html>
