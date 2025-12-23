@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
+
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <title>David OBM</title>
+    <link rel="icon" href="images/fishlogo.png">
+
+    <!-- mobile responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- ** Plugins Needed for the Project ** -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
+    <link rel="stylesheet" href="plugins/counto/animate.css">
+    <link rel="stylesheet" href="plugins/aos/aos.css">
+    <link rel="stylesheet" href="plugins/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="plugins/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="plugins/animated-text/animated-text.css">
+    <script src="https://kit.fontawesome.com/89860d6884.js" crossorigin="anonymous"></script>
+
+    <!-- Main Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navigation Start -->
+    <!-- Header Start -->
+
+    <nav class="navbar navbar-expand-lg  main-nav " id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logolongsmall.png" alt="" class="img-fluid">
+            </a>
+
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="ti-align-justify"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample09">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item  active"><a class="nav-link" href="index.html">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Close -->
+
+
+    <section class="page-title section pb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-center">
+                        <h1 class="text-capitalize mb-0 text-lg">Multi Camera 3D Underwater Scene Reconstruction</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section portfolio-single">
+        <div class="container">
+
+            <div class="row align-items-center bottompad">
+
+                <div class="col-lg-4">
+                    <p class="pagepara">Whie working as a research assistant at DTU, I was tasked with developing a
+                        pipeline for 3D reconstruction of underwater scenes, using a newly acquired 6 camera multi
+                        camera system. I worked with this system for a while, first working with our technician to
+                        integrate it onto a BlueROV. I then developed a Graphical User Interface for it, to allow us and
+                        students to actually use the system, without having to know how to call ROS services.
+                    </p>
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="pagecontainer">
+                        <img src="images/portfolio/multicam_flatfish.gif" alt="3D model created with Agisoft Metashape"
+                            class="img-fluid w-100">
+                        <div class="pageoverlay">
+                            <div class="text">3D model created of Amaliehaven, Copenhagen, see if you can spot the
+                                flatfish!</div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row align-items-center bottompad">
+
+
+                <div class="col-lg-4">
+                    <div class="pagecontainer">
+                        <img src="images/portfolio/multicamonboat.png" alt="ROV with multicamera system on boat"
+                            class="img-fluid w-100">
+                        <div class="pageoverlay">
+                            <div class="text">The ROV with multi camera system attached for data collection campagain on
+                                board of <it>Havfisken</it>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <p class="pagepara">I spent a while working on a full pipeline to create 3D reconstructions of
+                        underwater scenes using data from a multi camera system DTU had purchesed. All as part of the EU Horizion
+                        MarcoBolo Project. I ended up writing a
+                        codebase in python that could reconstruct a scene using 1 -> N cameras. During the process of
+                        writing this, I learnt so much about computer vision, the challenges with underwater scenes,
+                        and working on a large code base. I pretty quickly realised that me by myself was unlikely to
+                        develop anything better than commercial solutions out there, but I got a lot out of the process,
+                        it definitely helped me teach computer vision to our Ocean Engineering Masters students who took
+                        the course "Fundamentals of Acoustics and Underwater Optical Systems", that I've been a teaching
+                        assistant on from 2022 onwards.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="row align-items-center bottompad">
+
+                <div class="col-lg-7">
+                    <p class="pagepara">I worked with a masters student to calibrate the cameras, and go out and
+                        collect data in the waters around Copenhagen, and created a good few 3D scene reconstructions
+                        using <a href="https://colmap.github.io/">Colmap</a> and other programs. I was sorry to leave
+                        this project and
+                        start heading into my PhD all about Argo Floats (check out the other projects!), I was just
+                        getting into splatting and other state of the art 3D reconstruction methods. I'm hoping I'll come back to
+                        seabed / underwater scene reconstruction in the future. I attended a meeting for the project in
+                        January 2025 and presented our work and got to see what the other groups all working on
+                        biodiversity monitoring were up to. I think there's a lot of potential for 3D optical systems
+                        for seeing how marine eco systems are doing. It seems like a very low cost way of
+                        achieving some of the biodiversity monitoring requirements that are required when building any
+                        sort of offshore infrastrture, but also just gives you some really beautiful and cool results. I
+                        love when we can spot crabs and flatfish in our models after going around with our ROV, it's a
+                        non-instrusive way of getting a very good idea of what this underwater world actually looks
+                        like.
+                    </p>
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="pagecontainer">
+                        <img src="images/portfolio/multicam_pool.png" alt="BlueROV with multicamera system integrated"
+                            class="img-fluid w-100">
+                        <div class="pageoverlay">
+                            <div class="text">BlueROV with the multi-camera system integrated</div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="row align-items-center bottompad">
+                <div class="col-lg-12">
+                    <div class="pagecontainer">
+                        <img src="images/portfolio/marcoboloposer.png" alt="Poster explain 3D scene creation pipeline"
+                            class="img-fluid w-100">
+                        <div class="pageoverlay">
+                            <div class="text">A poster I made explaining the software I designed and built to do 3D
+                                scene reconstruction</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="plugins/jQuery/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="plugins/aos/aos.js"></script>
+    <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script src="plugins/shuffle/shuffle.min.js"></script>
+    <script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="plugins/animated-text/animated-text.js"></script>
+    <script src="plugins/counto/apear.js"></script>
+    <script src="plugins/counto/counTo.js"></script>
+
+    <!-- Main Script -->
+    <script src="js/script.js"></script>
+
+</html>
